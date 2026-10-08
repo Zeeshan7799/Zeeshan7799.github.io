@@ -20,140 +20,164 @@
         p { margin-bottom: 1rem; }
         .date { color: #666; font-style: italic; margin-bottom: 2rem; }
         .contact { background: #f9f9f9; padding: 1rem; border-radius: 4px; border: 1px solid #eee; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 1rem; }
+        th, td { border: 1px solid #eee; padding: 0.5rem; text-align: left; vertical-align: top; }
+        th { background: #f9f9f9; }
+        .table-wrap { overflow-x: auto; }
     </style>
 </head>
 <body>
 
     <h1>PRIVACY POLICY</h1>
-    <p class="date">Effective Date: March 17, 2026</p>
+    <p class="date">Effective Date: October 8, 2026</p>
 
-    <p>This Privacy Policy describes how NoBreak-X-Days collects, uses, stores, and shares information when you use the mobile application.</p>
+    <p>This Privacy Policy explains how NoBreak-X-Days (also shown as Unbroken or UnBroken X Days, "the app") collects, uses, stores, and shares personal information, the legal bases we rely on, and the rights you have, including under the EU General Data Protection Regulation (GDPR) and the UK GDPR.</p>
 
-    <p>By using the app, you agree to the collection and use of information as described in this Privacy Policy.</p>
+    <h2>1. WHO IS RESPONSIBLE FOR YOUR DATA</h2>
+    <p>The app is developed and published by Canis Studio, an independent developer, which acts as the data controller for the personal information described in this policy. You can reach us at any time at <a href="mailto:zeeshan.7799@gmail.com">zeeshan.7799@gmail.com</a>.</p>
 
-    <h2>1. INFORMATION WE COLLECT</h2>
-    <p>We may collect the following categories of information:</p>
+    <h2>2. INFORMATION WE COLLECT</h2>
 
-    <h3>1.1 Information you create in the app</h3>
+    <h3>2.1 Information you create in the app</h3>
     <ul>
         <li>Habit data, including habit names, schedules, colors, icons, start and end dates, streak data, archive and pause status, and related settings.</li>
-        <li>Completion data, including completion dates, status, and optional notes.</li>
+        <li>Completion data, including completion dates and optional notes.</li>
         <li>Reward and progress information related to milestones and unlock states.</li>
-        <li>Reminder times and certain app preferences.</li>
+        <li>Reminder times and app preferences (for example paper, pen and ink styles).</li>
     </ul>
 
-    <h3>1.2 Account information</h3>
-    <p>If you choose to sign in with Google, we may collect and process account-related information made available through Google Sign-In and Firebase Authentication, such as:</p>
+    <h3>2.2 Account information</h3>
+    <p>Signing in is optional. If you sign in with Google, we receive the following through Google Sign-In and Firebase Authentication:</p>
     <ul>
         <li>Your name</li>
         <li>Your email address</li>
         <li>Your profile photo</li>
-        <li>Your account identifier or user ID</li>
+        <li>Your account identifier (user ID)</li>
     </ul>
 
-    <h3>1.3 Diagnostic and technical information</h3>
-    <p>To help maintain app reliability, we may collect technical diagnostics and crash-related information through Firebase Crashlytics, such as:</p>
+    <h3>2.3 Subscription and purchase information</h3>
+    <p>If you buy NoBreak-X-Days Pro, payment is handled by Google Play. We never receive your card or payment details. To manage your subscription we use RevenueCat, which receives your app user ID (your account identifier), the products you bought, prices, currency, purchase and renewal dates, and subscription status.</p>
+
+    <h3>2.4 Usage analytics</h3>
+    <p>With your permission where the law requires it (see section 4), we use Google Analytics for Firebase to understand how the app is used. This includes:</p>
     <ul>
-        <li>Crash logs</li>
-        <li>Error reports</li>
-        <li>Device and app version information</li>
-        <li>Basic diagnostic metadata needed to investigate failures</li>
+        <li>In-app events, such as creating, completing, archiving or deleting a habit, opening screens, changing appearance settings, signing in or out, and starting, completing or cancelling a purchase (including product, price and currency). Habits are referred to by random identifiers, never by name or notes.</li>
+        <li>A Firebase app instance identifier and, on Android, the device advertising identifier where available.</li>
+        <li>Device and app information such as device model, operating system version, app version, language, and approximate location (country or region) derived from your IP address.</li>
     </ul>
 
-    <h3>1.4 Notification-related information</h3>
-    <p>If you enable reminders, the app stores notification preferences such as reminder time settings and notification permission status.</p>
-
-    <h3>1.5 Locally stored drawing or image references</h3>
-    <p>If you create manual completion drawings or similar local content, related local file references may be stored on your device. These local references are not part of the app's current cloud sync payload.</p>
-
-    <h2>2. HOW WE USE INFORMATION</h2>
-    <p>We use the information we collect to:</p>
+    <h3>2.5 Diagnostic and crash information</h3>
+    <p>To keep the app reliable we use Firebase Crashlytics, which collects:</p>
     <ul>
-        <li>Provide the habit tracking, streak, reminder, reward, and settings features of the app</li>
-        <li>Sync your data across sessions and devices when you sign in</li>
-        <li>Authenticate your account</li>
-        <li>Send local reminder notifications that you choose to enable</li>
-        <li>Export your data to a local JSON file when you request an export</li>
-        <li>Maintain app security, stability, and performance</li>
-        <li>Diagnose and fix crashes and errors</li>
-        <li>Comply with legal obligations where applicable</li>
+        <li>Crash logs, stack traces and error reports</li>
+        <li>Device model, operating system and app version</li>
+        <li>A Crashlytics installation identifier and basic device state at the time of the crash (for example free memory and orientation)</li>
     </ul>
 
-    <h2>3. HOW DATA IS STORED</h2>
-    <h3>3.1 On your device</h3>
-    <p>The app stores much of your information locally on your device using local database and preference storage. This includes habit data, completion records, app settings, reminder preferences, and certain reward or UI state information.</p>
+    <h3>2.6 Advertising information</h3>
+    <p>Free users see ads served by Google AdMob. Pro subscribers do not see ads. To serve and measure ads, Google and, if you consent, its advertising partners may process your device advertising identifier, IP address, approximate location, device information, and your interactions with ads.</p>
 
-    <h3>3.2 In the cloud</h3>
-    <p>If you sign in, the app may sync certain data to backend services associated with the app. Based on the current implementation, this may include:</p>
-    <ul>
-        <li>Habit records</li>
-        <li>Completion records and optional notes</li>
-        <li>Certain settings and reward-related state</li>
-        <li>Reminder-related sync data</li>
-    </ul>
+    <h3>2.7 Notification information</h3>
+    <p>If you enable reminders, the app stores your reminder times and notification permission status on your device.</p>
 
-    <h2>4. THIRD-PARTY SERVICES</h2>
-    <p>The app uses third-party services to operate key features:</p>
-    <h3>4.1 Google Sign-In and Firebase Authentication</h3>
-    <p>Used to sign you in and manage authenticated sessions.</p>
-    <h3>4.2 Firebase Crashlytics</h3>
-    <p>Used to collect crash and reliability information.</p>
-    <h3>4.3 Firebase-hosted backend services</h3>
-    <p>Used for account-linked syncing and server-side data operations.</p>
-    <p>These third-party providers may process information in accordance with their own privacy policies.</p>
+    <h3>2.8 Drawings</h3>
+    <p>If you mark completions with a manual drawing, the image is stored only on your device. It is not uploaded or synced.</p>
 
-    <h2>5. NOTIFICATIONS</h2>
-    <p>The app uses local notifications to remind you about habits and streak-related activity. These are generated on your device. The app does not currently implement remote marketing push notifications.</p>
-    <p>To support reminders, the app may request notification-related permissions and, on some Android devices, exact alarm and reboot-related permissions so reminders can be scheduled and restored reliably.</p>
-
-    <h2>6. DATA SHARING</h2>
-    <p>We do not sell your personal information.</p>
-    <p>We may share information only in the following circumstances:</p>
-    <ul>
-        <li>With service providers and infrastructure providers needed to operate the app, such as authentication, backend, and crash reporting services</li>
-        <li>When you choose to sign in and sync data</li>
-        <li>When you choose to export or share your exported file</li>
-        <li>If required by law, regulation, legal process, or to protect rights, safety, and security</li>
-    </ul>
-    <p>The app is not currently designed to serve third-party advertising.</p>
-
-    <h2>7. EXPORTS</h2>
-    <p>If you use the export feature, the app generates a JSON export file on your device that may contain your habit and completion information, including notes. You control what you do with that exported file. If you share or upload it yourself, that sharing is your responsibility.</p>
-
-    <h2>8. DATA RETENTION</h2>
-    <p>We retain information for as long as necessary to provide the app's features and for legitimate operational purposes.</p>
-    <ul>
-        <li>Local data remains on your device until you delete it, clear app data, or uninstall the app.</li>
-        <li>If you use account-based sync, server-side data may remain associated with your account until it is deleted.</li>
-    </ul>
-
-    <h2>9. ACCOUNT DELETION AND YOUR CHOICES</h2>
-    <p>If you use account-based features, the app includes an account deletion flow. When you request account deletion, the app sends a request to remove your account and associated server-side data.</p>
-    <p>You may also choose to:</p>
-    <ul>
-        <li>Use the app without signing in, subject to available functionality</li>
-        <li>Disable notifications in your device or app settings</li>
-        <li>Delete local app data from your device</li>
-        <li>Contact us with questions or requests about your data</li>
-    </ul>
-
-    <h2>10. SECURITY</h2>
-    <p>We use reasonable measures to protect information, but no method of transmission over the internet or method of electronic storage is completely secure. We cannot guarantee absolute security.</p>
-
-    <h2>11. CHILDREN'S PRIVACY</h2>
-    <p>The app is not intended for children under the age required by applicable law to consent to data processing on their own. If you believe a child has provided personal information in violation of applicable law, contact us so we can review the issue.</p>
-
-    <h2>12. INTERNATIONAL DATA PROCESSING</h2>
-    <p>If you use cloud-based features, your information may be processed or stored in countries other than your own, depending on the infrastructure used by our service providers.</p>
-
-    <h2>13. CHANGES TO THIS PRIVACY POLICY</h2>
-    <p>We may update this Privacy Policy from time to time. The updated version will be indicated by a new Effective Date. Continued use of the app after changes become effective means you accept the updated policy.</p>
-
-    <h2>14. CONTACT</h2>
-    <div class="contact">
-        <p>If you have questions about this Privacy Policy or your data, you can contact:</p>
-        <p><strong>Email:</strong> <a href="mailto:zeeshan.7799@gmail.com">zeeshan.7799@gmail.com</a></p>
+    <h2>3. HOW WE USE INFORMATION AND OUR LEGAL BASES</h2>
+    <div class="table-wrap">
+    <table>
+        <tr><th>Purpose</th><th>Data used</th><th>Legal basis (GDPR / UK GDPR)</th></tr>
+        <tr><td>Providing habit tracking, streaks, rewards, reminders and settings</td><td>2.1, 2.7, 2.8</td><td>Performance of our contract with you (Art. 6(1)(b))</td></tr>
+        <tr><td>Signing you in and syncing your data across devices</td><td>2.1, 2.2</td><td>Performance of contract (Art. 6(1)(b))</td></tr>
+        <tr><td>Selling and managing Pro subscriptions, restoring purchases</td><td>2.2, 2.3</td><td>Performance of contract (Art. 6(1)(b)); keeping transaction records to meet tax and accounting duties (Art. 6(1)(c))</td></tr>
+        <tr><td>Fixing crashes and keeping the app secure and stable</td><td>2.5</td><td>Our legitimate interest in a working, secure app (Art. 6(1)(f))</td></tr>
+        <tr><td>Usage analytics to improve the app</td><td>2.4</td><td>Your consent in the EEA, UK and Switzerland (Art. 6(1)(a)); our legitimate interest in improving the app elsewhere (Art. 6(1)(f))</td></tr>
+        <tr><td>Personalised advertising and storing or reading information on your device for ads</td><td>2.6</td><td>Your consent (Art. 6(1)(a))</td></tr>
+        <tr><td>Non-personalised (limited) advertising that funds the free version</td><td>2.6</td><td>Our legitimate interest in funding the free app (Art. 6(1)(f)), as presented in the consent form, where you can object</td></tr>
+        <tr><td>Exporting your data to a file when you ask</td><td>2.1</td><td>Performance of contract (Art. 6(1)(b))</td></tr>
+        <tr><td>Complying with legal requests and protecting rights and safety</td><td>As needed</td><td>Legal obligation (Art. 6(1)(c)) or legitimate interest (Art. 6(1)(f))</td></tr>
+    </table>
     </div>
 
+    <h2>4. CONSENT, ADVERTISING AND ANALYTICS CHOICES</h2>
+    <p>If you are in the European Economic Area, the United Kingdom or Switzerland, the app shows a consent form from Google's User Messaging Platform (certified under the IAB Transparency and Consent Framework) before personalised ads are used. In that case:</p>
+    <ul>
+        <li>Usage analytics (section 2.4) stays switched off until you consent to storing and accessing information on your device. If you decline, analytics is not collected.</li>
+        <li>Personalised ads are used only if you consent. If you decline, you may still see non-personalised ads selected using limited data.</li>
+        <li>You can change or withdraw your choices at any time in <strong>Settings &gt; Ad Privacy Settings</strong>. Withdrawing consent stops further processing based on consent but does not affect processing that already took place.</li>
+    </ul>
+    <p>Outside these regions, analytics is enabled by default. On Android you can also reset or delete your advertising identifier in your device settings (Settings &gt; Google &gt; Ads, or Settings &gt; Privacy &gt; Ads, depending on your device).</p>
+
+    <h2>5. SERVICE PROVIDERS WE USE</h2>
+    <p>We share personal information only with the providers below, who process it to deliver their service to us:</p>
+    <ul>
+        <li><strong>Google Firebase</strong> (Authentication, backend and database hosting on Google Cloud, Analytics, Crashlytics) and <strong>Google Sign-In</strong> &ndash; <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+        <li><strong>Google AdMob</strong> and, with your consent, its certified advertising partners &ndash; <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+        <li><strong>RevenueCat</strong> (subscription management) &ndash; <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
+        <li><strong>Google Play</strong> (payments, app updates and in-app review prompts) &ndash; <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>6. DATA SHARING</h2>
+    <p>We do not sell your personal information. Apart from the providers in section 5, we share information only:</p>
+    <ul>
+        <li>When you choose to export or share your exported file</li>
+        <li>If required by law, regulation or legal process, or to protect rights, safety and security</li>
+    </ul>
+
+    <h2>7. WHERE DATA IS STORED AND INTERNATIONAL TRANSFERS</h2>
+    <p>Most of your data stays on your device. If you sign in, synced data is stored on Google Cloud servers in the United States. Google and RevenueCat may process data in the United States and other countries. Where personal data from the EEA, UK or Switzerland is transferred to countries without an adequacy decision, these providers rely on the EU-U.S. Data Privacy Framework (and its UK and Swiss extensions) and/or the European Commission's Standard Contractual Clauses.</p>
+
+    <h2>8. HOW LONG WE KEEP DATA</h2>
+    <ul>
+        <li><strong>Data on your device</strong> remains until you delete it, clear the app's data, or uninstall the app.</li>
+        <li><strong>Account and synced data</strong> is kept while your account exists and is permanently deleted when you delete your account.</li>
+        <li><strong>Analytics data</strong> is kept for up to 14 months and then deleted automatically by Google.</li>
+        <li><strong>Crash reports</strong> are kept for up to 90 days.</li>
+        <li><strong>Purchase records</strong> are kept for as long as needed to manage your subscription and to meet legal, tax and accounting obligations.</li>
+        <li><strong>Advertising data</strong> is retained by Google according to its own policies.</li>
+    </ul>
+
+    <h2>9. YOUR RIGHTS</h2>
+    <p>If GDPR or UK GDPR applies to you, you have the right to:</p>
+    <ul>
+        <li><strong>Access</strong> the personal data we hold about you and receive a copy</li>
+        <li><strong>Rectify</strong> inaccurate data (most data can be edited directly in the app)</li>
+        <li><strong>Erase</strong> your data (see section 10)</li>
+        <li><strong>Restrict</strong> how we process your data</li>
+        <li><strong>Data portability</strong>: use the in-app export to get your habits and completions as a JSON file</li>
+        <li><strong>Object</strong> to processing based on legitimate interests, including non-personalised advertising</li>
+        <li><strong>Withdraw consent</strong> at any time in Settings &gt; Ad Privacy Settings</li>
+        <li><strong>Lodge a complaint</strong> with your local data protection authority (in the EEA, see <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en">the list of EU authorities</a>; in the UK, the <a href="https://ico.org.uk/make-a-complaint/">ICO</a>)</li>
+    </ul>
+    <p>To exercise any right, email us at <a href="mailto:zeeshan.7799@gmail.com">zeeshan.7799@gmail.com</a>. We will respond within one month. We may ask you to confirm your identity before acting on a request. Requests about data held only by Google (for example ad data) can also be made directly to Google.</p>
+
+    <h2>10. ACCOUNT DELETION</h2>
+    <p>You can delete your account and all associated server-side data at any time:</p>
+    <ul>
+        <li>In the app, in <strong>Settings &gt; Delete Account</strong> (shown while you are signed in), or</li>
+        <li>On the web at <a href="https://unbroken-flutter.web.app/delete-account">unbroken-flutter.web.app/delete-account</a></li>
+    </ul>
+    <p>Deletion removes your account and synced habit, completion, settings and reward data from our servers. Data stored only on your device remains until you clear the app's data or uninstall it. Subscription records kept by Google Play and RevenueCat for legal and accounting purposes may be retained as described in section 8. Deleting your account does not cancel an active subscription; cancel it in Google Play.</p>
+
+    <h2>11. NOTIFICATIONS</h2>
+    <p>Reminders are local notifications generated on your device. The app does not send remote marketing push notifications. To schedule reminders reliably, the app may ask for notification permission and, on some Android devices, exact alarm and restart-related permissions.</p>
+
+    <h2>12. EXPORTS</h2>
+    <p>If you use the export feature, the app creates a JSON file on your device containing your habit and completion information, including notes. You control what happens to that file. If you share or upload it yourself, that sharing is your responsibility.</p>
+
+    <h2>13. SECURITY</h2>
+    <p>Data is sent to our servers over encrypted connections (HTTPS) and access to synced data requires your signed-in account. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+
+    <h2>14. CHILDREN'S PRIVACY</h2>
+    <p>The app is not directed to children under 13. In the EEA and UK, people below the age of digital consent in their country (between 13 and 16) should use the app only with a parent's or guardian's permission. If you believe a child has provided personal information to us without appropriate consent, contact us and we will delete it.</p>
+
+    <h2>15. CHANGES TO THIS PRIVACY POLICY</h2>
+    <p>We may update this Privacy Policy from time to time. The updated version will show a new Effective Date. If a change materially affects how we use your personal data, we will let you know before it takes effect (for example in the app or on its store listing) and ask for your consent again where the law requires it.</p>
+
+    <h2>16. CONTACT</h2>
+    <div class="contact">
+        <p>For questions about this Privacy Policy or to exercise your rights, contact:</p>
+        <p><strong>Canis Studio</strong><br><strong>Email:</strong> <a href="mailto:zeeshan.7799@gmail.com">zeeshan.7799@gmail.com</a></p>
+    </div>
 </body>
 </html>
