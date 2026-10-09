@@ -130,11 +130,11 @@
     <h2>8. HOW LONG WE KEEP DATA</h2>
     <ul>
         <li><strong>Data on your device</strong> remains until you delete it, clear the app's data, or uninstall the app.</li>
-        <li><strong>Account and synced data</strong> is kept while your account exists and is permanently deleted when you delete your account.</li>
-        <li><strong>Analytics data</strong> is kept for up to 14 months and then deleted automatically by Google.</li>
-        <li><strong>Crash reports</strong> are kept for up to 90 days.</li>
+        <li><strong>Account and synced data</strong> is kept while your account exists. When you delete your account, we remove it from our Firebase project immediately. Google may take around 2 months to remove deleted data from its systems, and copies held in its encrypted backups can remain for up to 6 months (see <a href="https://policies.google.com/technologies/retention">How Google retains data we collect</a>).</li>
+        <li><strong>Analytics data</strong> is kept for up to 14 months and then deleted automatically by Google, on a monthly basis (see <a href="https://support.google.com/analytics/answer/7667196">Google Analytics data retention settings</a>).</li>
+        <li><strong>Crash reports</strong> are kept for up to 90 days by Firebase Crashlytics (see <a href="https://firebase.google.com/docs/crashlytics">firebase.google.com/docs/crashlytics</a>).</li>
         <li><strong>Purchase records</strong> are kept for as long as needed to manage your subscription and to meet legal, tax and accounting obligations.</li>
-        <li><strong>Advertising data</strong> is retained by Google according to its own policies.</li>
+        <li><strong>Advertising data</strong> is retained by Google according to its own policies (see <a href="https://policies.google.com/technologies/retention">How Google retains data we collect</a>).</li>
     </ul>
 
     <h2>9. YOUR RIGHTS</h2>
@@ -157,7 +157,7 @@
         <li>In the app, in <strong>Settings &gt; Delete Account</strong> (shown while you are signed in), or</li>
         <li>On the web at <a href="https://unbroken-flutter.web.app/delete-account">unbroken-flutter.web.app/delete-account</a></li>
     </ul>
-    <p>Deletion removes your account and synced habit, completion, settings and reward data from our servers. Data stored only on your device remains until you clear the app's data or uninstall it. Subscription records kept by Google Play and RevenueCat for legal and accounting purposes may be retained as described in section 8. Deleting your account does not cancel an active subscription; cancel it in Google Play.</p>
+    <p>Deletion removes your account and synced habit, completion, settings and reward data from our Firebase project immediately. Google may take around 2 months to remove deleted data from its systems, and copies held in its encrypted backups can remain for up to 6 months (see section 8). Data stored only on your device remains until you clear the app's data or uninstall it. Subscription records kept by Google Play and RevenueCat for legal and accounting purposes may be retained as described in section 8. Deleting your account does not cancel an active subscription; cancel it in Google Play.</p>
 
     <h2>11. NOTIFICATIONS</h2>
     <p>Reminders are local notifications generated on your device. The app does not send remote marketing push notifications. To schedule reminders reliably, the app may ask for notification permission and, on some Android devices, exact alarm and restart-related permissions.</p>
